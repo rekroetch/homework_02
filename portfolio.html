@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <style>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
         body {
             background-color: #8bb397;
         }
-    </style>
+    </style> -->
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,16 +33,58 @@
         </div>
     </nav> 
 
-    <main class="container" style="background: white; margin: 20px auto;">  
+    <main class="container" style="background: whitesmoke; margin: 20px auto;">  
         <div class="row">
             <h1 class= "display-4" style="margin: 20px 50px 10px;">Portfolio</h1>
         </div> 
+        <hr>
         <div class="row" style="padding: 10px">
-            <div class="col-xs-6">
-                <img style="margin: 10px" src="https://via.placeholder.com/350" alt="placeholder image">
+            <!-- Weather Dashboard -->
+            <div class="card" style="width: 21rem;">
+                <img src="./weatherDashboardScreenshot.png" class="card-img-top" alt="Weather Dashboard Screenshot">
+                <div class="card-body">
+                  <h2 class="card-title">Weather Dashboard</h2>
+                  <p class="card-text">An app that displays the weather of the city that the user enters into the search bar, including current conditions and a five day forecast.  Search results persist using local storage.  Made using the OpenWeatherMap API, along with HTML, CSS, and JavaScript.</p>
+                  <a href="https://rekroetch.github.io/weather_dashboard/" target="_blank" class="btn btn-primary">Check it out</a>
+                </div>
+            </div>
+            <!-- Code Quiz -->
+            <div class="card" style="width: 21rem;">
+                <img src="./quiz-assets/questionEx.png" class="card-img-top" alt="Code quiz example question">
+                <div class="card-body">
+                  <h2 class="card-title">Code Quiz</h2>
+                  <p class="card-text">An app that presents the user with a short, timed quiz about JavaScript, during which each correct answer increases the score by 1, and each incorrect answer decreases the timer by 10 seconds. After the quiz, the user can save their score to local storage. Created using HTML, CSS, and JavaScript.  </p>
+                  <a href="https://rekroetch.github.io/code_quiz/" target="_blank" class="btn btn-primary">Check it out</a>
+                </div>
+            </div>
+            <!-- Project 1 -->
+            <div class="card" style="width: 21rem;">
+                <img src="./searchResult.png" class="card-img-top" alt="Who's Hungry Screenshot">
+                <div class="card-body">
+                  <h2 class="card-title">Who's Hungry</h2>
+                  <p class="card-text">An app that allows the user to search for restaurants when they want to try some place new. The app uses the APIs of Zomato and OpenStreetMap, along with Leaflet and MapQuest to provide information about the restaurants as well as directions to the place of their choice. App utilizes HTML, CSS, JavaScript, jQuery, and Foundation.</p>
+                  <a href="https://rekroetch.github.io/whos_hungry_project01/" target="_blank" class="btn btn-primary">Check it out</a>
+                </div>
+            </div>
+            <!-- Extra -->
+            <div class="card" style="width: 20rem;">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h2 class="card-title">Card title</h2>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <!-- <div class="col-xs-6">
+                <a href="https://rekroetch.github.io/code_quiz/" target="_blank"><h2 style="margin: 0 30px">Code Quiz</h2></a>
+                <img style="width: 350px; margin: 10px" src="./quiz-assets/startPage.png" alt="code quiz start page">
+                <img style="width: 350px; margin: 10px" src="./quiz-assets/questionEx.png" alt="code quiz question example">
+                <img style="width: 350px; margin: 10px" src="./quiz-assets/scorePage.png" alt="code quiz score page">
             </div>
             <div class="col-xs-6">
-                <img style="margin: 10px" src="https://via.placeholder.com/350" alt="placeholder image">
+                <a href="https://rekroetch.github.io/weather_dashboard/" target="_blank"><h2 style="margin: 0 30px">Weather Dashboard</h2></a>
+                
+                <img style="height: 350px; margin: 10px" src="weatherDashboardScreenshot.png" alt="weather dashboard screenshot">
             </div>  
             <div class="col-xs-6">
                 <img style="margin: 10px" src="https://via.placeholder.com/350" alt="placeholder image">
@@ -51,7 +94,7 @@
             </div>
             <div class="col-xs-6">
                 <img style="margin: 10px" src="https://via.placeholder.com/350" alt="placeholder image">
-            </div>
+            </div> -->
         </div>
     </main>
 
