@@ -2,6 +2,18 @@ body {
     background-color: #8bb397;
 }
 
+main {
+    background: white;
+}
+
+.jumbotron {
+    background: white;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
 .card {
-margin: 10px;
+    margin: 10px;
 }
