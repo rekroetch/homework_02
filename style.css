@@ -10,10 +10,25 @@ main {
     background: white;
 }
 
+.card-img {
+    width: 200px; 
+    margin: 0 20px 20px 0; 
+}
+
+.footer {
+    float: right;
+}
+
 .navbar-brand {
     font-size: 25px;
 }
 
 .card {
     margin: 10px;
+    /* background: */
 }
+
+/* .linkedIn {
+    height: 45px;
+} */
+
