@@ -16,7 +16,16 @@ main {
 }
 
 .footer {
-    float: right;
+    text-align: right;
+    line-height: 0.75px;
+}
+
+.navBottom {
+    border-top-style: inset;
+}
+
+.navTop {
+    border-bottom-style: inset;
 }
 
 .navbar-brand {
@@ -25,10 +34,25 @@ main {
 
 .card {
     margin: 10px;
-    /* background: */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .linkedIn {
-    height: 45px;
+.social {
+    font-size: 40px;
+    margin: 0 5px;
+    color: #333;
+}
+
+.contactInfo {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* .resume {
+    margin: 0 10px 20px 5px;
+} */
+
+/* p {
+    font-family: Arial, Helvetica, sans-serif;
 } */
 
