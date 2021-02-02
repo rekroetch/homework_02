@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navTop">
         <a class="navbar-brand">Rachel Kroetch</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,55 +36,59 @@
         </div> 
         <hr>
         <div class="row" style="padding: 10px">
-            <!-- Weather Dashboard -->
-            <div class="card" style="width: 21rem;">
-                <img src="./weatherDashboardScreenshot.png" class="card-img-top" alt="Weather Dashboard Screenshot">
-                <div class="card-body">
-                  <h2 class="card-title">Weather Dashboard</h2>
-                  <p class="card-text">An app that displays the weather of the city that the user enters into the search bar, including current conditions and a five day forecast.  Search results persist using local storage.  Made using the OpenWeatherMap API, along with HTML, CSS, and JavaScript.</p>
-                  <a href="https://rekroetch.github.io/weather_dashboard/" target="_blank" class="btn btn-dark">Deployed Site</a>
-                  <a href="https://github.com/rekroetch/weather_dashboard" target="_blank" class="btn btn-secondary">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Code Quiz -->
-            <div class="card" style="width: 21rem;">
-                <img src="./quiz-assets/questionEx.png" class="card-img-top" alt="Code quiz example question">
-                <div class="card-body">
-                  <h2 class="card-title">Code Quiz</h2>
-                  <p class="card-text">An app that presents the user with a short, timed quiz about JavaScript, during which each correct answer increases the score by 1, and each incorrect answer decreases the timer by 10 seconds. After the quiz, the user can save their score to local storage. Created using HTML, CSS, and JavaScript.  </p>
-                  <a href="https://rekroetch.github.io/code_quiz/" target="_blank" class="btn btn-dark">Deployed Site</a>
-                  <a href="https://github.com/rekroetch/code_quiz" target="_blank" class="btn btn-secondary">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Project 1 -->
-            <div class="card" style="width: 21rem;">
-                <img src="./searchResult.png" class="card-img-top" alt="Who's Hungry Screenshot">
-                <div class="card-body">
-                  <h2 class="card-title">Who's Hungry</h2>
-                  <p class="card-text">An app that allows the user to search for restaurants when they want to try some place new. The app uses the APIs of Zomato and OpenStreetMap, along with Leaflet and MapQuest to provide information about the restaurants as well as directions to the place of their choice. App utilizes HTML, CSS, JavaScript, jQuery, and Foundation.</p>
-                  <a href="https://rekroetch.github.io/whos_hungry_project01/" target="_blank" class="btn btn-dark">Deployed Site</a>
-                  <a href="https://github.com/rekroetch/whos_hungry_project01" target="_blank" class="btn btn-secondary">GitHub Repo</a>
-                </div>
-            </div>
-            <!-- Eat-Da-Burger -->
-            <div class="card" style="width: 21rem;">
-                <img src="./Eat-Da-Burger.png" class="card-img-top" alt="Eat-Da-Burger app screenshot">
-                <div class="card-body">
-                  <h2 class="card-title">Eat-Da-Burger</h2>
-                  <p class="card-text">An app where users can "make" and "eat" burgers, utilizing a MySQL database and RESTful API standards. Made with MySQL, Handlebars, Express.js, Node.js, jQuery, JavaScript, Bootstrap, CSS, and HTML.</p>
-                  <a href="https://afternoon-sands-10616.herokuapp.com/" target="_blank" class="btn btn-dark">Deployed Site</a>
-                  <a href="https://github.com/rekroetch/burger" target="_blank" class="btn btn-secondary">GitHub Repo</a>
-                </div>
-            </div>
+          <!-- Plates -->
+          <div class="card" style="width: 21rem;">
+              <img src="./img/platesResults.png" class="card-img-top" alt="Plates Screenshot">
+              <div class="card-body">
+                <h2 class="card-title">Plates</h2>
+                <p class="card-text">An app that allows the user to search for restaurants when they want to try some place new. The app uses the APIs of Zomato and OpenStreetMap, along with Leaflet and MapQuest to provide information about the restaurants as well as directions to the place of their choice. App utilizes HTML, CSS, JavaScript, jQuery, and Foundation.</p>
+                <a href="https://rekroetch.github.io/plates/" target="_blank" class="btn btn-dark">Deployed Site</a>
+                <a href="https://github.com/rekroetch/plates" target="_blank" class="btn btn-secondary">GitHub Repo</a>
+              </div>
+          </div>
+          <!-- Game Keeper -->
+          <div class="card" style="width: 21rem;">
+              <img src="./img/gameKeeperWelcome.png" class="card-img-top" alt="welcome page">
+              <div class="card-body">
+                <h2 class="card-title">Game Keeper</h2>
+                <p class="card-text">An app to Explore, Search, Filter and Save your favorite board games. Made with JavaScript, CSS, Handlebars, Node, Express, Passport, MySQL, Sequelize, Board Game Atlas API, JWT.IO, GSAP, Bootstrap, Font Awesome, and deployed on Heroku with JawsDB. </p>
+                <a href="https://my-game-keeper.herokuapp.com/" target="_blank" class="btn btn-dark">Deployed Site</a>
+                <a href="https://github.com/rekroetch/game-keeper" target="_blank" class="btn btn-secondary">GitHub Repo</a>
+              </div>
+          </div>
+          <!-- Weather Dashboard -->
+          <div class="card" style="width: 21rem;">
+              <img src="./img/weatherDashboardScreenshot.png" class="card-img-top" alt="Weather Dashboard Screenshot">
+              <div class="card-body">
+                <h2 class="card-title">Weather Dashboard</h2>
+                <p class="card-text">An app that displays the weather of the city that the user enters into the search bar, including current conditions and a five day forecast.  Search results persist using local storage.  Made using the OpenWeatherMap API, along with HTML, CSS, and JavaScript.</p>
+                <a href="https://rekroetch.github.io/weather_dashboard/" target="_blank" class="btn btn-dark">Deployed Site</a>
+                <a href="https://github.com/rekroetch/weather_dashboard" target="_blank" class="btn btn-secondary">GitHub Repo</a>
+              </div>
+          </div>
+          <!-- Eat-Da-Burger -->
+          <div class="card" style="width: 21rem;">
+              <img src="./img/Eat-Da-Burger.png" class="card-img-top" alt="Eat-Da-Burger app screenshot">
+              <div class="card-body">
+                <h2 class="card-title">Eat-Da-Burger</h2>
+                <p class="card-text">An app where users can "make" and "eat" burgers, utilizing a MySQL database and RESTful API standards. Made with MySQL, Handlebars, Express.js, Node.js, jQuery, JavaScript, Bootstrap, CSS, and HTML.</p>
+                <a href="https://afternoon-sands-10616.herokuapp.com/" target="_blank" class="btn btn-dark">Deployed Site</a>
+                <a href="https://github.com/rekroetch/burger" target="_blank" class="btn btn-secondary">GitHub Repo</a>
+              </div>
+          </div>
+        </div>
+        <div class="row">
+          <br>
+          <br>
         </div>
     </main>
-    <nav class="navbar fixed-bottom navbar-light bg-light">
-        <div class="col-xs-9"></div>
-        <div class="footer col-xs-3">
-            <a href="https://www.linkedin.com/in/rachelkroetch/" target="_blank" class="btn btn-primary">LinkedIn</a>
-            <a href="https://github.com/rekroetch" target="_blank" class="btn btn-dark">GitHub</a>
-            <a href="11:2020 Resume.pdf" target="_blank" class="btn btn-secondary">Resume</a>
-        </div>
+    <nav class="navbar fixed-bottom navbar-light bg-light navBottom">
+      <div class="footer col">
+          <a href="https://www.linkedin.com/in/rachelkroetch/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/rekroetch" target="_blank" class="social"><i class="fab fa-github-square"></i></a>
+          <a href="11:2020 Resume.pdf" target="_blank" class="social"><i class="far fa-file-alt"></i></a>
+          <!-- <a href="11:2020 Resume.pdf" target="_blank" class="btn btn-dark resume">Resume</a> -->
+      </div>
     </nav>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
