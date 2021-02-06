@@ -26,6 +26,7 @@ main {
 .card-img {
     width: 200px; 
     margin: 0 20px 20px 0; 
+    border: 1px solid #999;
 }
 
 .footer {
